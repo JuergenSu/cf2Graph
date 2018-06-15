@@ -1,5 +1,5 @@
 # cf2Graph
-Simple script that parses Cloudfoundrx Metadata to be fee into graphviz.
+Simple script that parses Cloudfoundry Metadata to be feed into graphviz.
 The script considers the following elements
  *  Orgs
  * Spaces
@@ -9,3 +9,9 @@ The script considers the following elements
  * Service Bindungs
  * Route Bindings
  * Container Networks
+
+# Usage
+```
+  cf login
+  ./create.sh | dot -Tjpg -o out.jpg
+```
