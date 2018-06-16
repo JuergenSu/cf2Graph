@@ -12,6 +12,5 @@ The script considers the following elements
 
 # Usage
 ```
-  cf login
-  ./create.sh | dot -Tjpg -o out.jpg
+  ./create.sh username__ __password__
 ```
